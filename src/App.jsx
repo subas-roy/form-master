@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 import StatefulFrom from './components/StatefulForm/StatefulFrom'
+import RefForm from './components/RefForm/RefForm'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <>
       <h1>Vite + React</h1>
       {/* <SimpleForm></SimpleForm> */}
-      <StatefulFrom></StatefulFrom>
+      {/* <StatefulFrom></StatefulFrom> */}
+      <RefForm></RefForm>
     </>
   )
 }
