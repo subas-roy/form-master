@@ -35,7 +35,7 @@ const StatefulFrom = () => {
         <br />
         <input onChange={handleEmailChange} type="email" name="email" />
         <br />
-        <input onChange={handlePasswordChange} type="passsword" name="password" />
+        <input onChange={handlePasswordChange} type="password" name="password" />
         <br />
         <input type="submit" value="Submit" />
         <br />

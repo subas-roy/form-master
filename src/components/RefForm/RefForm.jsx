@@ -6,6 +6,8 @@ const RefForm = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
 
+  
+
   const handleSubmit = e => {
     e.preventDefault();
     console.log(nameRef.current.value);

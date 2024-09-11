@@ -9,5 +9,5 @@
  * 3. controlled element: one object in a state holding all the input fields value
  * 
  * 
- * 4. uncontrolled element: 
+ * 4. uncontrolled element: useRef to create reference to the element and access value by using like: nameRef.current.value
  */
